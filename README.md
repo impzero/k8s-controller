@@ -11,12 +11,12 @@ kind create cluster --name my-cluster --config kind-config.yaml
 
 ##### Apply the CustomResourceDefinition
 ```bash
-kubectl apply -f custom-resource-definition.yaml
+kubectl apply -f zephy-resource-definition.yaml
 ```
 
 ##### Applying the custom resource
 ```bash
-kubectl apply -f custom-resource.yaml
+kubectl apply -f zephy-resource.yaml
 ```
 
 I wanted to understand how kubernetes work and since I am still in my process of learning about it, I thought that trying to create something simple like a CRD would give me a better understaning of the underlying architecture of the components of kubernetes.
